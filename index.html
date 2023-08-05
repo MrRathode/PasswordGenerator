@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="icon" type="image/png" href="logo.jpg">
+  <link rel="shortcut icon" type="image/x-icon" href="fab fa-expeditedssl" /> 
+    
+    
+     <link rel="stylesheet" href="style.css"> 
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <h1><b>Password Generator</b></h1>
+    <div class="main">
+        
+ 
+
+        <button id="generate" class="action-btn">
+            Generate Your Password   </button>
+           
+        <div class="slider_main">
+            <input type="range" value="10" min="1" max="35" class="slider"
+                oninput="this.nextElementSibling.value = this.value" id="slider">
+            <output>10</output>
+        </div>
+        <label class="container" >Include special characters
+            <input type="checkbox" check="checked" id="checkbox">
+            <span class="checkmark"></span>
+        </label>
+
+       <!-- <label class="container" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: rgb(12, 208, 90);">Include Numbers
+        
+            <input type="checkbox" check="checked" id="checkbox">
+            <span class="checkmark"></span>
+        </label>  -->
+
+    </div>
+
+
+
+    <div class="wrapper_main">
+        <h5 id="password_text"></h5>
+        
+       <button id="clipboard" class="clipboard">  <i class="fas fa-clipboard"></i>
+           Copy
+        </button>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html> 
+
