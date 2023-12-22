@@ -5,8 +5,11 @@
 **Features**
 
 --> Generate secure random passwords.
+
 --> Customize the length of the generated password.
+
 --> Choose from different character types( special characters).
+
 --> Copy the generated password to the clipboard with a single click.
 
 
