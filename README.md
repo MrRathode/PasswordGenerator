@@ -13,9 +13,13 @@
 **Usage**
 
 -->Open the Password Generator in your web browser.
+
 -->Adjust the sliders or enter the desired password length using the input field.
+
 -->Check/uncheck the character type options based on your preferences.
+
 -->Click on the "Generate Password" button to get your random password.
+
 -->Click on the "Copy to Clipboard" button to copy the generated password.
 
 **Technologies Used**
